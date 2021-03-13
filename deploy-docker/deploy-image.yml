@@ -2,7 +2,7 @@
 - name: Pull docker image of Lab3Junit
   hosts: all
   tasks:
-    - name: Pull junit devops image
-      docker_image:
+    - name: Pull devalgote/junit-devops
+    docker_image:
         name: devalgote/junit-devops
         source: pull
