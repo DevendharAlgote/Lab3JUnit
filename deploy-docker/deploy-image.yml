@@ -2,7 +2,7 @@
 - name: Pull and Run docker image
   hosts: all
   tasks:
-    - name: Pull devalgote/junit-devops
+    - name: Pull junit devops image
       docker_image:
         name: devalgote/junit-devops
         source: pull
